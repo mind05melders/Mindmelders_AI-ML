@@ -1,0 +1,108 @@
+const mongoose = require('mongoose');
+const readline = require('readline');
+const sgMail = require('@sendgrid/mail');
+
+const MONGO_URI = 'mongodb+srv://mindmelders05:mindmelders05@cluster0.cltov.mongodb.net/myDatabase?retryWrites=true&w=majority';
+
+mongoose
+    .connect(MONGO_URI)
+    .then(() => console.log('Connected to MongoDB Atlas successfully!'))
+    .catch((error) => {
+        console.error('Error connecting to MongoDB Atlas:', error.message);
+        process.exit(1); 
+    });
+
+const userSchema = new mongoose.Schema({
+    name: { type: String, required: true },
+    email: { type: String, required: true },
+    role: { type: String, required: true }
+});
+
+const User = mongoose.model('User', userSchema);
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+const askQuestion = (query) => {
+    return new Promise((resolve) => rl.question(query, resolve));
+};
+
+
+sgMail.setApiKey('API KEY');
+
+
+const sendEmail = async (name, email, role) => {
+    const company_name = "Tech Innovations";
+    const requirement_1 = "JavaScript proficiency";
+    const requirement_2 = "React.js experience";
+    const strength_1 = "Good command of UI design principles";
+    const gap_1 = "Needs hands-on experience with AWS";
+
+    const email_content = `
+Hi ${name},
+
+Congratulations on applying for the position of ${role} at ${company_name}! Based on your profile, here are some important details:
+
+🎯 Job Requirements:
+- ${requirement_1}
+- ${requirement_2}
+
+📶 Your Strengths:
+- ${strength_1}
+
+📈 Areas for Improvement:
+- ${gap_1}
+
+Good luck with the application!
+
+Regards,  
+CareerLink
+`;
+
+    const message = {
+        to: email,
+        from: 'mindmelders05@gmail.com',
+        subject: `Application Confirmation for ${role} at ${company_name}`,
+        text: email_content
+    };
+
+    try {
+        const response = await sgMail.send(message);
+        if (response[0].statusCode === 202) {
+            console.log("Email sent successfully!");
+        } else {
+            console.log(`Failed to send email. Status code: ${response[0].statusCode}`);
+        }
+    } catch (error) {
+        console.error("Error sending email:", error.message);
+    }
+};
+
+const saveUser = async () => {
+    try {
+        console.log("\n--- Enter User Details ---\n");
+
+        const name = await askQuestion('Enter user name: ');
+        const email = await askQuestion('Enter user email: ');
+        const role = await askQuestion('Enter user role: ');
+
+
+        const newUser = new User({ name, email, role });
+        const savedUser = await newUser.save();
+        console.log('\nUser saved successfully:', savedUser);
+
+        // Send email
+        await sendEmail(name, email, role);
+
+        rl.close();
+        mongoose.disconnect();
+    } catch (error) {
+        console.error('Error saving user or sending email:', error.message);
+        rl.close();
+        mongoose.disconnect();
+    }
+};
+
+saveUser();
