@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Success Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Apply a full-screen background */
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-image: url('h1.jpg'); /* Replace with your image URL */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    /* Form container styling */
+    .form-container {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 3rem 2rem;
+      border-radius: 15px;
+      text-align: center;
+      width: 80%;
+      max-width: 800px;
+      transition: opacity 0.5s ease-in-out; /* Smooth fade-out transition */
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #cecece;
+    }
+
+    /* Card container styling */
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      margin-top: 2rem;
+      width: 100%;
+      max-width: 800px;
+    }
+
+    /* Individual card styling */
+    .card {
+      background-color: rgba(255, 255, 255, 1);
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .card p {
+      font-size: 1rem;
+      color: #1b1a1a;
+    }
+
+    /* Hover effect for the cards */
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Success message container -->
+  <div class="form-container" id="successMessage">
+    <h1>Registration Successful!</h1>
+    <p>Your details have been saved successfully. Thank you for signing up!</p>
+  </div>
+
+  <!-- Cards container -->
+  <div class="card-container">
+    <!-- Card 1 -->
+    <div class="card">
+      <h3>Card Title 1</h3>
+      <p>This is a description of the first card.</p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <h3>Card Title 2</h3>
+      <p>This is a description of the second card.</p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <h3>Card Title 3</h3>
+      <p>This is a description of the third card.</p>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card">
+      <h3>Card Title 4</h3>
+      <p>This is a description of the fourth card.</p>
+    </div>
+  </div>
+
+  <script>
+    // Set a timer to hide the message after 5 seconds
+    setTimeout(() => {
+      const successMessage = document.getElementById('successMessage');
+      successMessage.style.opacity = 0; // Fade out
+      setTimeout(() => {
+        successMessage.style.display = 'none'; // Remove from layout after fade-out
+      }, 500); // After the fade-out duration (500ms)
+    }, 5000); // 5 seconds
+  </script>
+
+</body>
+</html>
