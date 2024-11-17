@@ -1,0 +1,885 @@
+[
+    {
+      "title": "Frontend Developer",
+      "skills_required": ["react.js", "typescript"],
+      "source": "Google Search",
+      "company_name": "Infosys"
+    },
+    {
+      "title": "Frontend Developer",
+      "skills_required": ["html", "css", "javascript"],
+      "source": "Jooble",
+      "company_name": "Tata Consultancy Services"
+    },
+    {
+      "title": "Frontend Developer",
+      "skills_required": ["angular", "typescript", "rxjs"],
+      "source": "Adzuna",
+      "company_name": "Wipro"
+    },
+    {
+      "title": "Frontend Developer",
+      "skills_required": ["vue.js", "sass", "webpack"],
+      "source": "Google Search",
+      "company_name": "HCL Technologies"
+    },
+    {
+      "title": "Frontend Developer",
+      "skills_required": ["react.js", "redux", "javascript"],
+      "source": "Jooble",
+      "company_name": "Mindtree"
+    },
+    {
+      "title": "Frontend Developer",
+      "skills_required": ["html", "css", "javascript", "jquery"],
+      "source": "Adzuna",
+      "company_name": "Tech Mahindra"
+    },
+    {
+      "title": "Frontend Developer",
+      "skills_required": ["react.js", "typescript", "graphql"],
+      "source": "Google Search",
+      "company_name": "Cognizant"
+    },
+    {
+      "title": "Frontend Developer",
+      "skills_required": ["html", "css", "vue.js"],
+      "source": "Jooble",
+      "company_name": "Accenture"
+    },
+    {
+      "title": "Frontend Developer",
+      "skills_required": ["typescript", "angular", "npm"],
+      "source": "Adzuna",
+      "company_name": "Persistent Systems"
+    },
+    {
+      "title": "Frontend Developer",
+      "skills_required": ["react.js", "redux", "node.js"],
+      "source": "Google Search",
+      "company_name": "L&T Infotech"
+    },
+    {
+      "title": "Frontend Developer",
+      "skills_required": ["html", "css", "bootstrap"],
+      "source": "Jooble",
+      "company_name": "Zensar Technologies"
+    },
+    {
+      "title": "Frontend Developer",
+      "skills_required": ["react.js", "typescript", "webpack"],
+      "source": "Adzuna",
+      "company_name": "Capgemini"
+    },
+    {
+      "title": "Frontend Developer",
+      "skills_required": ["javascript", "ajax", "react.js"],
+      "source": "Google Search",
+      "company_name": "Sapient"
+    },
+    {
+      "title": "Frontend Developer",
+      "skills_required": ["html", "css", "javascript", "vue.js"],
+      "source": "Jooble",
+      "company_name": "Syntel"
+    },
+    {
+      "title": "Frontend Developer",
+      "skills_required": ["react.js", "graphql", "scss"],
+      "source": "Adzuna",
+      "company_name": "IBM India"
+    },
+    {
+      "title": "Frontend Developer",
+      "skills_required": ["angular", "typescript", "ngrx"],
+      "source": "Google Search",
+      "company_name": "Mphasis"
+    },
+    {
+      "title": "Frontend Developer",
+      "skills_required": ["html", "css", "typescript"],
+      "source": "Jooble",
+      "company_name": "Hexaware Technologies"
+    },
+    {
+      "title": "Frontend Developer",
+      "skills_required": ["react.js", "redux", "typescript"],
+      "source": "Adzuna",
+      "company_name": "Cognizant Technology Solutions"
+    },
+    {
+      "title": "Frontend Developer",
+      "skills_required": ["javascript", "jquery", "bootstrap"],
+      "source": "Google Search",
+      "company_name": "TCS"
+    },
+    {
+      "title": "Frontend Developer",
+      "skills_required": ["react.js", "redux", "node.js"],
+      "source": "Jooble",
+      "company_name": "Mastek"
+    },
+    {
+      "title": "Frontend Developer",
+      "skills_required": ["html", "css", "scss"],
+      "source": "Adzuna",
+      "company_name": "Birlasoft"
+    },
+  {
+    "Title": "Backend Developer",
+    "Skills required": "Java, Spring Boot, Hibernate",
+    "Source": "Google",
+    "Company name": "TCS"
+  },
+  {
+    "Title": "Backend Developer",
+    "Skills required": "Node.js, Express, MongoDB",
+    "Source": "Adzuana",
+    "Company name": "Accenture"
+  },
+  {
+    "Title": "Backend Developer",
+    "Skills required": "Python, Django, PostgreSQL",
+    "Source": "Jobble",
+    "Company name": "Cognizant"
+  },
+  {
+    "Title": "Backend Developer",
+    "Skills required": "PHP, Laravel, MySQL",
+    "Source": "Google",
+    "Company name": "Wipro"
+  },
+  {
+    "Title": "Backend Developer",
+    "Skills required": "Go, Kubernetes, AWS",
+    "Source": "Adzuana",
+    "Company name": "Zoho"
+  },
+  {
+    "Title": "Backend Developer",
+    "Skills required": "Ruby on Rails, MySQL, Redis",
+    "Source": "Jobble",
+    "Company name": "Capgemini"
+  },
+  {
+    "Title": "Backend Developer",
+    "Skills required": "C#, .NET Core, SQL Server",
+    "Source": "Google",
+    "Company name": "Tech Mahindra"
+  },
+  {
+    "Title": "Backend Developer",
+    "Skills required": "JavaScript, Node.js, GraphQL",
+    "Source": "Adzuana",
+    "Company name": "Infosys"
+  },
+  {
+    "Title": "Backend Developer",
+    "Skills required": "Python, Flask, SQLite",
+    "Source": "Jobble",
+    "Company name": "HCL Technologies"
+  },
+  {
+    "Title": "Backend Developer",
+    "Skills required": "Java, J2EE, Oracle",
+    "Source": "Google",
+    "Company name": "IBM"
+  },
+  {
+    "Title": "Backend Developer",
+    "Skills required": "Scala, Akka, Cassandra",
+    "Source": "Adzuana",
+    "Company name": "Oracle"
+  },
+  {
+    "Title": "Backend Developer",
+    "Skills required": "PHP, Symfony, MongoDB",
+    "Source": "Jobble",
+    "Company name": "DXC Technology"
+  },
+  {
+    "Title": "Backend Developer",
+    "Skills required": "JavaScript, Express, MongoDB",
+    "Source": "Google",
+    "Company name": "SAP"
+  },
+  {
+    "Title": "Backend Developer",
+    "Skills required": "Java, Spring Boot, Elasticsearch",
+    "Source": "Adzuana",
+    "Company name": "Atos"
+  },
+  {
+    "Title": "Backend Developer",
+    "Skills required": "Go, Docker, PostgreSQL",
+    "Source": "Jobble",
+    "Company name": "Wipro"
+  },
+  {
+    "Title": "Backend Developer",
+    "Skills required": "C++, MySQL, Linux",
+    "Source": "Google",
+    "Company name": "Dell Technologies"
+  },
+  {
+    "Title": "Backend Developer",
+    "Skills required": "Python, Django, Redis",
+    "Source": "Adzuana",
+    "Company name": "Siemens"
+  },
+  {
+    "Title": "Backend Developer",
+    "Skills required": "Ruby, Ruby on Rails, PostgreSQL",
+    "Source": "Jobble",
+    "Company name": "Mindtree"
+  },
+  {
+    "Title": "Backend Developer",
+    "Skills required": "JavaScript, Node.js, AWS",
+    "Source": "Google",
+    "Company name": "Cognizant"
+  },
+  {
+    "Title": "Backend Developer",
+    "Skills required": "PHP, Laravel, Redis",
+    "Source": "Adzuana",
+    "Company name": "Infosys"
+  },
+  {
+    "Title": "Backend Developer",
+    "Skills required": "Java, Spring Boot, Kafka",
+    "Source": "Jobble",
+    "Company name": "Tech Mahindra"
+  },
+    {
+      "Title": "Backend Developer",
+      "Skills required": "Java, Spring Boot, Hibernate",
+      "Source": "Google",
+      "Company name": "TCS"
+    },
+    {
+      "Title": "Backend Developer",
+      "Skills required": "Node.js, Express, MongoDB",
+      "Source": "Adzuana",
+      "Company name": "Accenture"
+    },
+    {
+      "Title": "Backend Developer",
+      "Skills required": "Python, Django, PostgreSQL",
+      "Source": "Jobble",
+      "Company name": "Cognizant"
+    },
+    {
+      "Title": "Backend Developer",
+      "Skills required": "PHP, Laravel, MySQL",
+      "Source": "Google",
+      "Company name": "Wipro"
+    },
+    {
+      "Title": "Backend Developer",
+      "Skills required": "Go, Kubernetes, AWS",
+      "Source": "Adzuana",
+      "Company name": "Zoho"
+    },
+    {
+      "Title": "Backend Developer",
+      "Skills required": "Ruby on Rails, MySQL, Redis",
+      "Source": "Jobble",
+      "Company name": "Capgemini"
+    },
+    {
+      "Title": "Backend Developer",
+      "Skills required": "C#, .NET Core, SQL Server",
+      "Source": "Google",
+      "Company name": "Tech Mahindra"
+    },
+    {
+      "Title": "Backend Developer",
+      "Skills required": "JavaScript, Node.js, GraphQL",
+      "Source": "Adzuana",
+      "Company name": "Infosys"
+    },
+    {
+      "Title": "Backend Developer",
+      "Skills required": "Python, Flask, SQLite",
+      "Source": "Jobble",
+      "Company name": "HCL Technologies"
+    },
+    {
+      "Title": "Backend Developer",
+      "Skills required": "Java, J2EE, Oracle",
+      "Source": "Google",
+      "Company name": "IBM"
+    },
+    {
+      "Title": "Backend Developer",
+      "Skills required": "Scala, Akka, Cassandra",
+      "Source": "Adzuana",
+      "Company name": "Oracle"
+    },
+    {
+      "Title": "Backend Developer",
+      "Skills required": "PHP, Symfony, MongoDB",
+      "Source": "Jobble",
+      "Company name": "DXC Technology"
+    },
+    {
+      "Title": "Backend Developer",
+      "Skills required": "JavaScript, Express, MongoDB",
+      "Source": "Google",
+      "Company name": "SAP"
+    },
+    {
+      "Title": "Backend Developer",
+      "Skills required": "Java, Spring Boot, Elasticsearch",
+      "Source": "Adzuana",
+      "Company name": "Atos"
+    },
+    {
+      "Title": "Backend Developer",
+      "Skills required": "Go, Docker, PostgreSQL",
+      "Source": "Jobble",
+      "Company name": "Wipro"
+    },
+    {
+      "Title": "Backend Developer",
+      "Skills required": "C++, MySQL, Linux",
+      "Source": "Google",
+      "Company name": "Dell Technologies"
+    },
+    {
+      "Title": "Backend Developer",
+      "Skills required": "Python, Django, Redis",
+      "Source": "Adzuana",
+      "Company name": "Siemens"
+    },
+    {
+      "Title": "Backend Developer",
+      "Skills required": "Ruby, Ruby on Rails, PostgreSQL",
+      "Source": "Jobble",
+      "Company name": "Mindtree"
+    },
+    {
+      "Title": "Backend Developer",
+      "Skills required": "JavaScript, Node.js, AWS",
+      "Source": "Google",
+      "Company name": "Cognizant"
+    },
+    {
+      "Title": "Backend Developer",
+      "Skills required": "PHP, Laravel, Redis",
+      "Source": "Adzuana",
+      "Company name": "Infosys"
+    },
+    {
+      "Title": "Backend Developer",
+      "Skills required": "Java, Spring Boot, Kafka",
+      "Source": "Jobble",
+      "Company name": "Tech Mahindra"
+    },
+        {
+          "Title": "Data Scientist",
+          "Skills required": "Python, Machine Learning, TensorFlow",
+          "Source": "Google",
+          "Company name": "TCS"
+        },
+        {
+          "Title": "Data Scientist",
+          "Skills required": "R, Statistical Analysis, SQL",
+          "Source": "Adzuana",
+          "Company name": "Accenture"
+        },
+        {
+          "Title": "Data Scientist",
+          "Skills required": "Python, Deep Learning, Keras",
+          "Source": "Jobble",
+          "Company name": "Cognizant"
+        },
+        {
+          "Title": "Data Scientist",
+          "Skills required": "Python, Pandas, Numpy",
+          "Source": "Google",
+          "Company name": "Wipro"
+        },
+        {
+          "Title": "Data Scientist",
+          "Skills required": "R, Shiny, Machine Learning",
+          "Source": "Adzuana",
+          "Company name": "Zoho"
+        },
+        {
+          "Title": "Data Scientist",
+          "Skills required": "Python, Scikit-learn, XGBoost",
+          "Source": "Jobble",
+          "Company name": "Capgemini"
+        },
+        {
+          "Title": "Data Scientist",
+          "Skills required": "SQL, Data Visualization, Power BI",
+          "Source": "Google",
+          "Company name": "Tech Mahindra"
+        },
+        {
+          "Title": "Data Scientist",
+          "Skills required": "Python, NLP, SpaCy",
+          "Source": "Adzuana",
+          "Company name": "Infosys"
+        },
+        {
+          "Title": "Data Scientist",
+          "Skills required": "R, TensorFlow, Neural Networks",
+          "Source": "Jobble",
+          "Company name": "HCL Technologies"
+        },
+        {
+          "Title": "Data Scientist",
+          "Skills required": "Python, Hadoop, Spark",
+          "Source": "Google",
+          "Company name": "IBM"
+        },
+        {
+          "Title": "Data Scientist",
+          "Skills required": "R, Data Cleaning, Tableau",
+          "Source": "Adzuana",
+          "Company name": "Oracle"
+        },
+        {
+          "Title": "Data Scientist",
+          "Skills required": "Python, Time Series Analysis, ARIMA",
+          "Source": "Jobble",
+          "Company name": "DXC Technology"
+        },
+        {
+          "Title": "Data Scientist",
+          "Skills required": "Python, SQL, Data Wrangling",
+          "Source": "Google",
+          "Company name": "SAP"
+        },
+        {
+          "Title": "Data Scientist",
+          "Skills required": "R, Keras, Data Visualization",
+          "Source": "Adzuana",
+          "Company name": "Atos"
+        },
+        {
+          "Title": "Data Scientist",
+          "Skills required": "Python, ML Algorithms, TensorFlow",
+          "Source": "Jobble",
+          "Company name": "Wipro"
+        },
+        {
+          "Title": "Data Scientist",
+          "Skills required": "Python, Flask, SQL",
+          "Source": "Google",
+          "Company name": "Dell Technologies"
+        },
+        {
+          "Title": "Data Scientist",
+          "Skills required": "R, Predictive Modeling, Statistics",
+          "Source": "Adzuana",
+          "Company name": "Siemens"
+        },
+        {
+          "Title": "Data Scientist",
+          "Skills required": "Python, Feature Engineering, Pandas",
+          "Source": "Jobble",
+          "Company name": "Mindtree"
+        },
+        {
+          "Title": "Data Scientist",
+          "Skills required": "Python, AI, Machine Learning",
+          "Source": "Google",
+          "Company name": "Cognizant"
+        },
+        {
+          "Title": "Data Scientist",
+          "Skills required": "R, Deep Learning, Neural Networks",
+          "Source": "Adzuana",
+          "Company name": "Infosys"
+        },
+        {
+          "Title": "Data Scientist",
+          "Skills required": "Python, Data Analysis, Visualization",
+          "Source": "Jobble",
+          "Company name": "Tech Mahindra"
+        },
+            {
+              "title": "Software Developer",
+              "skills_required": ["java", "spring boot", "hibernate"],
+              "source": "Google Search",
+              "company_name": "Razorpay"
+            },
+            {
+              "title": "Software Developer",
+              "skills_required": ["python", "django", "rest APIs"],
+              "source": "Jooble",
+              "company_name": "Swiggy"
+            },
+            {
+              "title": "Software Developer",
+              "skills_required": ["javascript", "node.js", "express"],
+              "source": "Adzuna",
+              "company_name": "Zomato"
+            },
+            {
+              "title": "Software Developer",
+              "skills_required": ["c#", "asp.net", "mvc"],
+              "source": "Google Search",
+              "company_name": "Ola"
+            },
+            {
+              "title": "Software Developer",
+              "skills_required": ["ruby", "ruby on rails", "postgresql"],
+              "source": "Jooble",
+              "company_name": "Urban Company"
+            },
+            {
+              "title": "Software Developer",
+              "skills_required": ["c++", "multithreading", "algorithm design"],
+              "source": "Adzuna",
+              "company_name": "Cure.fit"
+            },
+            {
+              "title": "Software Developer",
+              "skills_required": ["java", "spring boot", "hibernate", "microservices"],
+              "source": "Google Search",
+              "company_name": "Chargebee"
+            },
+            {
+              "title": "Software Developer",
+              "skills_required": ["javascript", "react.js", "redux"],
+              "source": "Jooble",
+              "company_name": "Giva"
+            },
+            {
+              "title": "Software Developer",
+              "skills_required": ["typescript", "angular", "node.js"],
+              "source": "Adzuna",
+              "company_name": "Cure.fit"
+            },
+            {
+              "title": "Software Developer",
+              "skills_required": ["php", "laravel", "mysql"],
+              "source": "Google Search",
+              "company_name": "Meesho"
+            },
+            {
+              "title": "Software Developer",
+              "skills_required": ["python", "flask", "sql"],
+              "source": "Jooble",
+              "company_name": "Razorpay"
+            },
+            {
+              "title": "Software Developer",
+              "skills_required": ["java", "spring boot", "kafka"],
+              "source": "Adzuna",
+              "company_name": "Digit Insurance"
+            },
+            {
+              "title": "Software Developer",
+              "skills_required": ["python", "machine learning", "tensorflow"],
+              "source": "Google Search",
+              "company_name": "Inmobi"
+            },
+            {
+              "title": "Software Developer",
+              "skills_required": ["go", "gRPC", "kubernetes"],
+              "source": "Jooble",
+              "company_name": "Unacademy"
+            },
+            {
+              "title": "Software Developer",
+              "skills_required": ["java", "spring boot", "docker"],
+              "source": "Adzuna",
+              "company_name": "Razorpay"
+            },
+            {
+              "title": "Software Developer",
+              "skills_required": ["ruby", "rails", "aws"],
+              "source": "Google Search",
+              "company_name": "Dream11"
+            },
+            {
+              "title": "Software Developer",
+              "skills_required": ["javascript", "react.js", "graphql"],
+              "source": "Jooble",
+              "company_name": "Cure.fit"
+            },
+            {
+              "title": "Software Developer",
+              "skills_required": ["python", "data science", "pandas"],
+              "source": "Adzuna",
+              "company_name": "ClearTax"
+            },
+            {
+              "title": "Software Developer",
+              "skills_required": ["html", "css", "typescript", "angular"],
+              "source": "Google Search",
+              "company_name": "Meesho"
+            },
+            {
+              "title": "Software Developer",
+              "skills_required": ["node.js", "express", "mongodb"],
+              "source": "Jooble",
+              "company_name": "Groww"
+            },
+            {
+              "title": "Software Developer",
+              "skills_required": ["java", "spring boot", "rest APIs"],
+              "source": "Adzuna",
+              "company_name": "PhonePe"
+            },
+            {
+              "title": "Software Developer",
+              "skills_required": ["python", "django", "sql"],
+              "source": "Google Search",
+              "company_name": "Zoho"
+            },
+                {
+                  "Title": "Data Analyst",
+                  "Skills required": "Excel, SQL, Data Visualization",
+                  "Source": "Google",
+                  "Company name": "TCS"
+                },
+                {
+                  "Title": "Data Analyst",
+                  "Skills required": "Python, SQL, Power BI",
+                  "Source": "Adzuana",
+                  "Company name": "Accenture"
+                },
+                {
+                  "Title": "Data Analyst",
+                  "Skills required": "R, Data Cleaning, Tableau",
+                  "Source": "Jobble",
+                  "Company name": "Cognizant"
+                },
+                {
+                  "Title": "Data Analyst",
+                  "Skills required": "Excel, SQL, Data Mining",
+                  "Source": "Google",
+                  "Company name": "Wipro"
+                },
+                {
+                  "Title": "Data Analyst",
+                  "Skills required": "Python, SQL, Reporting",
+                  "Source": "Adzuana",
+                  "Company name": "Zoho"
+                },
+                {
+                  "Title": "Data Analyst",
+                  "Skills required": "Power BI, Excel, DAX",
+                  "Source": "Jobble",
+                  "Company name": "Capgemini"
+                },
+                {
+                  "Title": "Data Analyst",
+                  "Skills required": "Python, Excel, Data Analysis",
+                  "Source": "Google",
+                  "Company name": "Tech Mahindra"
+                },
+                {
+                  "Title": "Data Analyst",
+                  "Skills required": "SQL, Data Visualization, Reporting",
+                  "Source": "Adzuana",
+                  "Company name": "Infosys"
+                },
+                {
+                  "Title": "Data Analyst",
+                  "Skills required": "R, Excel, Data Modeling",
+                  "Source": "Jobble",
+                  "Company name": "HCL Technologies"
+                },
+                {
+                  "Title": "Data Analyst",
+                  "Skills required": "Python, SQL, Tableau",
+                  "Source": "Google",
+                  "Company name": "IBM"
+                },
+                {
+                  "Title": "Data Analyst",
+                  "Skills required": "Power BI, SQL, Data Cleaning",
+                  "Source": "Adzuana",
+                  "Company name": "Oracle"
+                },
+                {
+                  "Title": "Data Analyst",
+                  "Skills required": "Excel, Data Visualization, Statistical Analysis",
+                  "Source": "Jobble",
+                  "Company name": "DXC Technology"
+                },
+                {
+                  "Title": "Data Analyst",
+                  "Skills required": "R, SQL, Data Wrangling",
+                  "Source": "Google",
+                  "Company name": "SAP"
+                },
+                {
+                  "Title": "Data Analyst",
+                  "Skills required": "Python, SQL, Reporting Tools",
+                  "Source": "Adzuana",
+                  "Company name": "Atos"
+                },
+                {
+                  "Title": "Data Analyst",
+                  "Skills required": "Excel, Power BI, Forecasting",
+                  "Source": "Jobble",
+                  "Company name": "Wipro"
+                },
+                {
+                  "Title": "Data Analyst",
+                  "Skills required": "SQL, Data Visualization, Data Reporting",
+                  "Source": "Google",
+                  "Company name": "Dell Technologies"
+                },
+                {
+                  "Title": "Data Analyst",
+                  "Skills required": "R, SQL, Business Intelligence",
+                  "Source": "Adzuana",
+                  "Company name": "Siemens"
+                },
+                {
+                  "Title": "Data Analyst",
+                  "Skills required": "Python, Excel, Statistical Analysis",
+                  "Source": "Jobble",
+                  "Company name": "Mindtree"
+                },
+                {
+                  "Title": "Data Analyst",
+                  "Skills required": "Power BI, Excel, SQL",
+                  "Source": "Google",
+                  "Company name": "Cognizant"
+                },
+                {
+                  "Title": "Data Analyst",
+                  "Skills required": "R, SQL, Data Reporting",
+                  "Source": "Adzuana",
+                  "Company name": "Infosys"
+                },
+                {
+                  "Title": "Data Analyst",
+                  "Skills required": "Python, Excel, SQL",
+                  "Source": "Jobble",
+                  "Company name": "Tech Mahindra"
+                },
+                    {
+                      "title": "Machine Learning Engineer",
+                      "skills_required": ["python", "pytorch", "deep learning", "time series"],
+                      "source": "Google Search",
+                      "company_name": "Revv"
+                    },
+                    {
+                      "title": "Machine Learning Engineer",
+                      "skills_required": ["tensorflow", "keras", "computer vision", "opencv"],
+                      "source": "Adzuna",
+                      "company_name": "CureMetrix"
+                    },
+                    {
+                      "title": "Machine Learning Engineer",
+                      "skills_required": ["python", "scikit-learn", "data analysis", "nlp"],
+                      "source": "Jooble",
+                      "company_name": "Blynk"
+                    },
+                    {
+                      "title": "Machine Learning Engineer",
+                      "skills_required": ["java", "spark", "big data", "hadoop"],
+                      "source": "Adzuna",
+                      "company_name": "UrbanClap"
+                    },
+                    {
+                      "title": "Machine Learning Engineer",
+                      "skills_required": ["python", "tensorflow", "neural networks", "deployments"],
+                      "source": "Google Search",
+                      "company_name": "Locus"
+                    },
+                    {
+                      "title": "Machine Learning Engineer",
+                      "skills_required": ["r", "statistics", "bayesian methods"],
+                      "source": "Jooble",
+                      "company_name": "Acko General Insurance"
+                    },
+                    {
+                      "title": "Machine Learning Engineer",
+                      "skills_required": ["python", "scikit-learn", "recommendation systems", "nlp"],
+                      "source": "Adzuna",
+                      "company_name": "Razorpay"
+                    },
+                    {
+                      "title": "Machine Learning Engineer",
+                      "skills_required": ["tensorflow", "keras", "image segmentation", "cv"],
+                      "source": "Google Search",
+                      "company_name": "Cure.fit"
+                    },
+                    {
+                      "title": "Machine Learning Engineer",
+                      "skills_required": ["pytorch", "reinforcement learning", "simulation"],
+                      "source": "Jooble",
+                      "company_name": "Unacademy"
+                    },
+                    {
+                      "title": "Machine Learning Engineer",
+                      "skills_required": ["python", "mlops", "cloud deployment"],
+                      "source": "Adzuna",
+                      "company_name": "ZestMoney"
+                    },
+                    {
+                      "title": "Machine Learning Engineer",
+                      "skills_required": ["python", "keras", "object detection", "tensorflow"],
+                      "source": "Google Search",
+                      "company_name": "Meesho"
+                    },
+                    {
+                      "title": "Machine Learning Engineer",
+                      "skills_required": ["python", "deep learning", "cv", "multi-task learning"],
+                      "source": "Jooble",
+                      "company_name": "Byju's"
+                    },
+                    {
+                      "title": "Machine Learning Engineer",
+                      "skills_required": ["python", "machine learning", "predictive modeling", "statistics"],
+                      "source": "Adzuna",
+                      "company_name": "Innovaccer"
+                    },
+                    {
+                      "title": "Machine Learning Engineer",
+                      "skills_required": ["python", "pandas", "machine learning", "regression models"],
+                      "source": "Google Search",
+                      "company_name": "Finbox"
+                    },
+                    {
+                      "title": "Machine Learning Engineer",
+                      "skills_required": ["python", "scikit-learn", "random forests", "data engineering"],
+                      "source": "Jooble",
+                      "company_name": "InMobi"
+                    },
+                    {
+                      "title": "Machine Learning Engineer",
+                      "skills_required": ["python", "pytorch", "graph neural networks", "nlp"],
+                      "source": "Adzuna",
+                      "company_name": "Digit Insurance"
+                    },
+                    {
+                      "title": "Machine Learning Engineer",
+                      "skills_required": ["python", "deep learning", "time series forecasting"],
+                      "source": "Google Search",
+                      "company_name": "Wysa"
+                    },
+                    {
+                      "title": "Machine Learning Engineer",
+                      "skills_required": ["python", "tensorflow", "chatbots", "dialog systems"],
+                      "source": "Jooble",
+                      "company_name": "Dunzo"
+                    },
+                    {
+                      "title": "Machine Learning Engineer",
+                      "skills_required": ["python", "data wrangling", "nlp", "text classification"],
+                      "source": "Adzuna",
+                      "company_name": "Agara"
+                    },
+                    {
+                      "title": "Machine Learning Engineer",
+                      "skills_required": ["python", "cv", "image processing", "cnn"],
+                      "source": "Google Search",
+                      "company_name": "Rivigo"
+                    }
+]
+          
