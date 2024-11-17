@@ -1,9 +1,24 @@
-const mongoose = require('mongoose');
-const readline = require('readline');
-const sgMail = require('@sendgrid/mail');
+import mongoose from 'mongoose';
+import readline from 'readline';
+import sgMail from '@sendgrid/mail';
+import dotenv from 'dotenv';
+import { GoogleGenerativeAI } from '@google/generative-ai';
 
+// Load environment variables from .env file
+dotenv.config();
+
+// Check if API key is loaded correctly
+console.log('API Key:', process.env.API_KEY);
+
+if (!process.env.API_KEY) {
+    console.error("API key is missing. Please check your .env file.");
+    process.exit(1); 
+}
+
+// MongoDB connection string
 const MONGO_URI = 'mongodb+srv://mindmelders05:mindmelders05@cluster0.cltov.mongodb.net/myDatabase?retryWrites=true&w=majority';
 
+// Connect to MongoDB Atlas
 mongoose
     .connect(MONGO_URI)
     .then(() => console.log('Connected to MongoDB Atlas successfully!'))
@@ -12,28 +27,37 @@ mongoose
         process.exit(1); 
     });
 
+// Define a Schema
 const userSchema = new mongoose.Schema({
     name: { type: String, required: true },
     email: { type: String, required: true },
-    role: { type: String, required: true }
+    phoneno: { type: String, required: true },
+    role: { type: String, required: true },
+    skills: { type: String, required: true },
+    certifications : { type: String, required: true },
+    cgpa : { type: Number, required: true },
+    experience : { type: String, required: true },
+
 });
 
 const User = mongoose.model('User', userSchema);
 
+// Initialize readline interface
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 });
 
+// Function to ask questions
 const askQuestion = (query) => {
     return new Promise((resolve) => rl.question(query, resolve));
 };
 
+// Set SendGrid API key
+sgMail.setApiKey('api');
 
-sgMail.setApiKey('API KEY');
-
-
-const sendEmail = async (name, email, role) => {
+// Function to send email
+const sendEmail = async (name, email, role, interviewQuestions) => {
     const company_name = "Tech Innovations";
     const requirement_1 = "JavaScript proficiency";
     const requirement_2 = "React.js experience";
@@ -54,6 +78,10 @@ Congratulations on applying for the position of ${role} at ${company_name}! Base
 
 📈 Areas for Improvement:
 - ${gap_1}
+
+💻 Here are 5 Interview Questions(Coding based) for the ${role} position:
+
+${interviewQuestions}
 
 Good luck with the application!
 
@@ -80,21 +108,54 @@ CareerLink
     }
 };
 
+
+// Function to generate interview questions dynamically based on the user's role
+const generateInterviewQuestions = async (role) => {
+    const genAI = new GoogleGenerativeAI(process.env.API_KEY);
+
+    try {
+        const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+
+        // Define the prompt for generating 5 interview questions dynamically based on the role
+        const prompt = `
+        I'm applying for a ${role} at Infosys, what all hard level coding questions might be asked? Give me the top 5 with no explanations or headings.Give only for ${role} role.Be more specific!Im a beginner so please guide me correctly..!`;
+
+        // Generate the content based on the prompt
+        const result = await model.generateContent(prompt);
+        const response = await result.response;
+        const text = response.text();
+
+        return text;
+    } catch (error) {
+        console.error("Error during content generation:", error);
+    }
+};
+
+// Save user and send email
 const saveUser = async () => {
     try {
         console.log("\n--- Enter User Details ---\n");
 
         const name = await askQuestion('Enter user name: ');
         const email = await askQuestion('Enter user email: ');
+        const phoneno = await askQuestion('Enter phone number: ');
+        const skills = await askQuestion('Enter skills: ');
         const role = await askQuestion('Enter user role: ');
+        const cgpa = await askQuestion('Enter CGPA: ');
+        const experience = await askQuestion('Enter work experience: ');
+        const certifications = await askQuestion('Enter Certifications made: ');
 
 
-        const newUser = new User({ name, email, role });
+        // Create and save user
+        const newUser = new User({ name, email, phoneno,skills,role,cgpa,experience,certifications });
         const savedUser = await newUser.save();
         console.log('\nUser saved successfully:', savedUser);
 
-        // Send email
-        await sendEmail(name, email, role);
+        // Generate interview questions based on the user's role
+        const interviewQuestions = await generateInterviewQuestions(role);
+
+        // Send email with the interview questions
+        await sendEmail(name, email, role, interviewQuestions);
 
         rl.close();
         mongoose.disconnect();
